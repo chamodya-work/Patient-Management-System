@@ -41,6 +41,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity.badRequest().body(errors);
     }
 
+<<<<<<< HEAD
     @ExceptionHandler(PatientNotFoundException.class)
     public ResponseEntity<Map<String, String>> handlePatientNotFoundException(
             PatientNotFoundException ex) {
@@ -55,5 +56,7 @@ public class GlobalExceptionHandler {
 
 
 
+=======
+>>>>>>> c2adf5d8fe1183a733b3867735e5b755b8faf3ea
 
 }
