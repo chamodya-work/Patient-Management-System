@@ -19,10 +19,14 @@ public class BillingGrpcService extends BillingServiceGrpc.BillingServiceImplBas
 
         // Business logic - e.g save to database, perform calculates etc
         //now we only check response
+        // Simple dynamic logic
+        String accountId = "ACC-" + billingRequest.getPatientId();
+        String status = billingRequest.getEmail().isEmpty() ? "INVALID" : "CREATED";
+
 
         BillingResponse response=BillingResponse.newBuilder()
-                .setAccountId("12345")
-                .setStatus("ACTIVE")
+                .setAccountId(accountId)
+                .setStatus(status)
                 .build();
 
         responseObserver.onNext(response);

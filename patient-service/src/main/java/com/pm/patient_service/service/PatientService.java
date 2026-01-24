@@ -1,28 +1,35 @@
 package com.pm.patient_service.service;
 
+import billing.BillingResponse;
 import com.pm.patient_service.dto.PatientRequestDTO;
 import com.pm.patient_service.dto.PatientResponseDTO;
 import com.pm.patient_service.exception.EmailAlreadyExistsException;
 import com.pm.patient_service.exception.PatientNotFoundException;
+import com.pm.patient_service.grpc.BillingServiceGrpcClient;
 import com.pm.patient_service.mapper.PatientMapper;
 import com.pm.patient_service.model.Patient;
 import com.pm.patient_service.repository.PatientRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
+@Slf4j
 @Service
 public class PatientService {
     private final PatientRepository patientRepository;
+    private final BillingServiceGrpcClient billingServiceGrpcClient;
 
-    public PatientService(PatientRepository patientRepository) {
+    public PatientService(PatientRepository patientRepository, BillingServiceGrpcClient billingServiceGrpcClient) {
         this.patientRepository = patientRepository;
+        this.billingServiceGrpcClient = billingServiceGrpcClient;
     }
 
     public List<PatientResponseDTO> getPatient() {
         List<Patient> patients = patientRepository.findAll();
+        log.info("this is  patient from patient service:{}",patients);
         return patients.stream().map(PatientMapper::toDTO).toList();
 
     }
@@ -34,6 +41,12 @@ public class PatientService {
         }
 
         Patient newPatient = patientRepository.save(PatientMapper.toModel(patientRequestDTO));
+
+        log.warn("Patient saved with ID: {}", newPatient.getName());
+
+        //this is for create billing account for tha patient
+        BillingResponse billingResponse=billingServiceGrpcClient.createBillingAccount(newPatient.getId().toString(), newPatient.getName(), newPatient.getEmail());
+        log.info("Billing account created with ID: {}", billingResponse);
         return PatientMapper.toDTO(newPatient);
     }
 
@@ -53,7 +66,8 @@ public class PatientService {
         return PatientMapper.toDTO(updatedPatient);
 
     }
-    public void deletePatient(UUID id){
+
+    public void deletePatient(UUID id) {
         patientRepository.deleteById(id);
     }
 }

@@ -1,3 +1,608 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 6 test",
+    "email": "chamo_billing6@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T120735.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 5 test",
+    "email": "chamo_billing5@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115821.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 4 test",
+    "email": "chamo_billing4@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115527.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 3 test",
+    "email": "chamo_billing3@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115428.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 2 test",
+    "email": "chamo_billing2@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115324.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 1 test",
+    "email": "chamo_billing1@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115314.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 1 test",
+    "email": "chamo_billing1@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T115257.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing 1 test",
+    "email": "chamo_billing1@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T114616.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T113625.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T113622.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105752.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105648.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105643.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105642.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105625.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105621.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105502.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105452.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T105150.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T104807.200.json
+
+###
+
+GET http://localhost:4000/patients
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-24T104737.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T104036.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T103849.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T103703.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T103451.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T103009.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T102952.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T102948.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T102947.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T102945.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T102914.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T101606.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T101344.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T101301.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T100441.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T100253.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T100039.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "chamo billing test",
+    "email": "chamo_billing@gmail.com",
+    "address": "123 new state",
+    "dateOfBirth": "2001-02-08",
+    "registeredDate":"2025-05-08"
+}
+
+<> 2026-01-24T095952.200.json
+
+###
+
 GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
 Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
