@@ -2,8 +2,8 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-    "name": "chamo billing 7 test",
-    "email": "chamo_billing7@gmail.com",
+    "name": "chamo billing 10 test",
+    "email": "chamo_billing10@gmail.com",
     "address": "123 new state",
     "dateOfBirth": "2001-02-08",
     "registeredDate":"2025-05-08"
